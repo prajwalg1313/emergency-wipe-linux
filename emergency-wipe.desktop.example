@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Emergency Wipe
+Comment=Manual emergency wipe launcher (confirmation required)
+Exec=konsole --hold -e bash -c "$HOME/emergency-wipe.sh"
+Icon=emergency-wipe
+Terminal=false
+Categories=System;Security;
